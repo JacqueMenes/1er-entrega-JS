@@ -211,7 +211,7 @@ function carritoCompras(){
     let descuentoTotal = precioFinal - porcentajeDescuento
 
     //Mensaje hacia el usuario segun la compra
-    console.log(`Su Carrito de Compras Contiene:
+    alert(`Su Carrito de Compras Contiene:
     \n- ${categoriaR} ${productoR} $${precioR}
     \n- ${categoriaCam} ${productoCam} $${precioCam}
     \n- ${categoriaC} ${productoC} $${precioC}
@@ -223,7 +223,7 @@ function carritoCompras(){
     \nDescuento: ${porcentajeDescuento} 
     \n Precio con descuento: ${descuentoTotal}`)
     let usuario = prompt("Desea cargar un nuevo pedido o finalizar? \n SI o NO")
-if(usuario.toLocaleLowerCase() == "si"){
+if(usuario.toLowerCase() == "si"){
     carritoCompras();
 }else {
     let = "no" (alert("Muchas gracias por su compra"))
