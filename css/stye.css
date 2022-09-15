@@ -1,0 +1,10 @@
+.card {
+    margin: auto;
+}
+.btn {
+    background-color: violet;
+}
+.botones {
+    grid-template-columns: 2;
+    margin: auto;
+}
